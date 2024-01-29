@@ -5,13 +5,13 @@ const Huddle = () => {
     <div className="huddle">
       <section className="huddle__content">
         <div className="huddle_content-logo">
-          <img src="/public/images/logo.svg" alt="" />
+          <img src="/images/logo.svg" alt="" />
         </div>
 
         <article className="huddle__article">
           <img
             className="huddle__image"
-            src="/public/images/illustration-mockups.svg"
+            src="/images/illustration-mockups.svg"
             alt=""
           />
 
