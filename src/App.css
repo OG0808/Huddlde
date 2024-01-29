@@ -1,0 +1,7 @@
+.main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background: var(--SoftMagenta);
+  height: 100vh;
+}

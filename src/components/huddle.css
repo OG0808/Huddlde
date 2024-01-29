@@ -1,0 +1,148 @@
+.huddle {
+  max-width: 1440px;
+  width: 100%;
+  padding: 2rem;
+  background: var(--Violet);
+  margin: 0 auto;
+  font-family: var(--Font);
+  background-image: url("../../public/images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 33px 28px 72px -23px rgba(0, 0, 0, 0.75);
+}
+
+.huddle__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.huddle__image {
+  width: 100%;
+}
+
+.huddle__article {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.huddle__text {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.huddle__title {
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+}
+
+.huddle__description {
+  color: white;
+}
+
+.huddle__button {
+  color: white;
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 50px;
+  border: none;
+  background: var(--SoftMagenta);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.huddle__button:hover {
+  transition: 0.3s;
+  opacity: 60%;
+}
+
+.huddle__social-list {
+  list-style: none;
+  width: 100%;
+  font-weight: 600;
+  display: flex;
+  gap: 10px;
+  color: white;
+  justify-content: flex-end;
+}
+
+.huddle__social-item {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.huddle__social-item:hover {
+  transition: 0.3s;
+  color: var(--SoftMagenta);
+}
+
+/* Estilos resposive */
+
+@media (width<=1110px) {
+  .huddle__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+  }
+  .huddle__article {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .huddle__social-list {
+    list-style: none;
+    width: 100%;
+    font-weight: 600;
+    display: flex;
+    gap: 10px;
+    color: white;
+    justify-content: center;
+  }
+
+  .huddle__text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .huddle__title {
+    font-weight: 600;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+  }
+
+  .huddle__description {
+    color: white;
+    text-align: center;
+  }
+}
+
+@media (width<=400px) {
+  .huddle {
+    max-width: 1440px;
+    width: 100%;
+    padding: 2rem;
+    background: var(--Violet);
+    margin: 0 auto;
+    font-family: var(--Font);
+    background-image: url("../../public/images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 33px 28px 72px -23px rgba(0, 0, 0, 0.75);
+  }
+}
